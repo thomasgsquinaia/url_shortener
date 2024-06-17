@@ -14,7 +14,7 @@ const doc = {
   produces: ["application/json"],
   tags: [
     { name: "auth", description: "Endpoints of auth" },
-    { name: "url", description: "Endpoint of url" }
+    { name: "url", description: "Endpoints of url" }
   ],
   components: {
     securitySchemes: {
