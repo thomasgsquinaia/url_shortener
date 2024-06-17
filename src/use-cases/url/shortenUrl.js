@@ -24,7 +24,7 @@ module.exports = {
 
             url = await Url.create({ originalUrl, shortUrl, UserId: user_id   })
 
-            return `${protocol}//${hostname}/${url.shortUrl}`
+            return `${protocol}//${hostname}${hostname=="localhost"?":3001":""}/${url.shortUrl}`
           
         } 
         catch (err) {
