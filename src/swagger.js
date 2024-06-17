@@ -4,7 +4,7 @@ const doc = {
   info: {
     version: "1.0",
     title: "Url Shortner Api Rest",
-    description: "API REST to shorten URLs",
+    description: "API REST to shorten URLs.",
   },
   servers: [
     { url: 'https://url-shortener-iaaz.onrender.com/', description: "LocalProd" },
