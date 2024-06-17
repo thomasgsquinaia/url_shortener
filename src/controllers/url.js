@@ -10,7 +10,8 @@ module.exports = {
             const input = {
                 originalUrl: req.body.originalUrl,
                 user_id: req?.user?.id,
-                hostname: req.hostname
+                hostname: req.hostname,
+                protocol: req.protocol,
             }
             await useCaseShortenUrl.verifyInput(input)
             const result = await useCaseShortenUrl.create(input)
