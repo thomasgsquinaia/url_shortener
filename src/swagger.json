@@ -11,7 +11,7 @@
       "description": "LocalTest"
     },
     {
-      "url": "http://localhost:3001",
+      "url": "https://url-shortener-iaaz.onrender.com/",
       "description": "LocalProd"
     }
   ],
