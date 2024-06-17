@@ -22,7 +22,7 @@
     },
     {
       "name": "url",
-      "description": "Endpoint of url"
+      "description": "Endpoints of url"
     }
   ],
   "paths": {
