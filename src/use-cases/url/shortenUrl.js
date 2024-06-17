@@ -17,14 +17,9 @@ module.exports = {
     async create(input) {
         try {
             const { originalUrl, user_id } = input;
-            if(user_id == undefined) {
-              throw { 
-                message:"token undefined!",
-                status:404
-              }
-            }
             const shortUrl = shortener.generateShortUrl();
             let url;
+
             url = await Url.create({ originalUrl, shortUrl, UserId: user_id   })
            
             return `http://localhost:3001/${url.shortUrl}`
