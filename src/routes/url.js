@@ -64,7 +64,7 @@ router.put('/:id',auth, urlController.updateUrl
             in: 'body',
             required:true,
             schema: {
-                type: "object",
+                originalUrl: "string",
             }
     }
     #swagger.responses[500] = {

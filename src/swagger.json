@@ -7,12 +7,12 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3001",
-      "description": "LocalTest"
-    },
-    {
       "url": "https://url-shortener-iaaz.onrender.com/",
       "description": "LocalProd"
+    },
+    {
+      "url": "http://localhost:3001",
+      "description": "LocalTest"
     }
   ],
   "tags": [
@@ -451,7 +451,13 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object"
+              "type": "object",
+              "properties": {
+                "originalUrl": {
+                  "type": "string",
+                  "example": "string"
+                }
+              }
             }
           }
         ],
