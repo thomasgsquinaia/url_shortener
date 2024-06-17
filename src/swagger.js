@@ -7,8 +7,8 @@ const doc = {
     description: "API REST to shorten URLs",
   },
   servers: [
-    { url: 'http://localhost:3001', description: "LocalTest" },
     { url: 'https://url-shortener-iaaz.onrender.com/', description: "LocalProd" },
+    { url: 'http://localhost:3001', description: "LocalTest" },
   ],
   consumes: ["application/json", "multipart/form-data"],
   produces: ["application/json"],
