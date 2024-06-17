@@ -51,7 +51,7 @@ POST /login - Login - {email, password}.
 
 **URL**
 ```markdown
-POST /url/shorten - Encurtar URL - {originalUrl, BearerToken}.
+POST /url/shorten - Encurta URL - {originalUrl, BearerToken}.
 GET /url/:shortenUrl - Retorna URL por URL abreviado - {shortenUrl}.
 GET /url - Retonar as URLs de um usuário específico passando o token - { BearerToken }.
 PUT /url/:id - Atualiza uma URL específica - {id, originalUrl, BearerToken}.
