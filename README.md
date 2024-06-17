@@ -78,7 +78,7 @@ Após fazer o login com a rota /auth/login você deve pegar o token e colocar no
 
 ## Insomnia
 
-Se você optar por fazer as solicitações usando o Insomnia, pode importar todas as coleções de solicitações a partir do arquivo `shorten-url.json` localizado na raiz do projeto. 
+Se você optar por fazer as solicitações usando o Insomnia, você pode importar todas as coleções de solicitações a partir do arquivo `shorten-url.json` localizado na raiz do projeto. 
 
 ## Sobre
 
